@@ -7,6 +7,7 @@ function App() {
     <div className="">
       <div className="container">
         <ListadoNombres/>
+        Lucas maggio es un gilo!
       </div>
       </div>
   );
