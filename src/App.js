@@ -7,6 +7,8 @@ function App() {
     <div className="">
       <div className="container">
         <ListadoNombres/>
+
+        Esto es solo un ejemplo
       </div>
       </div>
   );
