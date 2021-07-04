@@ -59,11 +59,11 @@ const ListadoNombres = () => {
                           listaNombre.map(item => 
                             <li key={item.id} className="list-group-item">
                                 {item.name}
-                               <button className="btn btn-danger float-end"
+                               <button className="btn btn-danger float-end btn-sm"
                                 onClick={ () => {deleteNombre(item.id)}}>
                                     Borrar
                                 </button>
-                                <button className="btn btn-info float-end"
+                                <button className="btn btn-info float-end btn-sm"
                                 onClick={ () => {edit(item)}}>
                                     Editar
                                 </button>
